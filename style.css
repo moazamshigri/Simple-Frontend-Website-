@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@700&display=swap');
+*{
+    /* background-color: black; */
+    margin: 0;padding: 0;
+    font-family: "Poppins";
+
+background-color: #111111;
+}
+.main{
+    height: 100vh;
+    background-image: url("minimalism-programming-code-wallpaper-preview.jpg");
+    background-position: center center;
+    /* background-size: max(2000px, 100vw); */
+    background-repeat: no-repeat;
+    position: relative;
+    /* opacity: -1; */
+}
+
+header{
+    background-color: #111111;
+    height: 200px;
+    /* display: flex; */
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header .logo{
+    /* height: 125px; */
+    /* background-image: url(Screenshot\ 2023-12-03\ 232532.PNG.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat; */
+    cursor: pointer;
+}
+header nav a{
+    text-decoration: none;
+    color: #89b6e6;
+    font-size: 23px;
+    font-family: "Poppins";
+}
+header nav a:hover{
+    color: white;
+    transition: .5s;
+}
+header .logo img{
+    height: 120px;
+}
+header nav{
+    display: contents;
+}
+
+#progress {
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    height: 70px;
+    width: 70px;
+    display: none;
+    place-items: center;
+    z-index: 1;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+  #progress-value {
+    display: block;
+    height: calc(100% - 15px);
+    width: calc(100% - 15px);
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    transition: .5s;
+    font-size: 35px;
+    color: #001a2e;
+  }
+  .separation{
+    background-color: rgb(95, 94, 94);
+    height: 7px;
+    position: relative;
+    /* top: 2px; */
+  }
+  .about
+  {
+    font-family: Helvetica, sans-serif;
+    margin: 0 0 0 80px;
+    /* text-align: center; */
+    background-color: #111111;
+    color: white;
+  }
+  .about .aboutmain{background-color: #111111;
+    margin: 54px 0;
+    /* text-align: center; */
+  }
+  .about h2{
+    margin: 15px 0;
+  }
+  .about h3{
+    margin: 54px 0 30px;
+  }
+  .about a{
+    color: rgb(78, 78, 81);
+  }
+  .about a:hover{
+    color: white;
+  }
+  #home{
+    color: white;
+  }
+
+  .contents{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+
+ .ho{
+  margin-bottom: 100px;
+ }
+ #home img{
+  height: 348px;
+ }
+ .writing a{
+  color: rgb(78, 78, 81);
+ }
+.writing a:hover{
+  color: white;
+}
+
+.contact{
+color: white;
+display: flex;
+margin-left: 80px;
+    flex-direction: column;
+    min-height: 120vh;
+    
+}
+.contact h1{
+  margin: 48px 0 0 0;
+}
+.contact input{
+  color: white;
+  border: 0.5px solid white;
+    height: 42px;
+    padding-left: 14px;
+    width: 35vw;
+    margin-bottom: 20px;
+}
+.contact .message{
+  color: white;
+    width: 50vw;
+    height: 33vh;
+    padding: 12px;
+}
+.contact button{
+  border: 0.5px solid white;
+  height: 52px;
+  width: 152px;
+  color: white;
+  margin-top: 24px;
+  cursor: pointer;
+  background-color: #454545;
+  border-radius: 5px;
+}
+.contact button:hover{
+background-color: black;
+}
+
+footer{
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 20vh;
+}
+@media (max-width:782px) {
+  header .logo img{
+    height: 70px;
+}
+header nav a{
+ font-size: 14px;
+}
+.main{
+
+  background-size: max(2000px, 100vw);
+
+}
+#home .contents {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.ho {
+  margin-bottom: 12px;
+}
+.main {
+  background-size: max(1000px, 100vw);
+}
+.about{
+  text-align: center;
+  margin: 0;
+}
+header{
+  flex-direction: column;
+}
+        }
